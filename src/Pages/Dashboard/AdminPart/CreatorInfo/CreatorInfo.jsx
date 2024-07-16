@@ -149,8 +149,6 @@ const CreatorInfo = () => {
           confirmButtonColor: "#fb7c29",
         });
       }
-
-      setTermCon(false);
     }
   }, [isError]);
 
@@ -204,6 +202,7 @@ const CreatorInfo = () => {
         handlePagination={handlePagination}
         handleSearch={handleSearch}
       />
+      {/* creator create drawer */}
       <Drawer
         title={
           <div>
