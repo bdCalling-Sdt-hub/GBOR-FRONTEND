@@ -26,7 +26,7 @@ import Swal from "sweetalert2";
 import { socketIO } from "../../../Socket.jsx";
 import colors from "../../Constant/colors.jsx";
 import useRole from "../../Hooks/useRole.jsx";
-import GBORLOGO from "../../Images/logo.png";
+import GBORLOGO from "../../Images/Logo.png";
 import { Notifications } from "../../ReduxSlice/notificationSlice.jsx";
 import Styles from "./Dashboard.module.css";
 const { Header, Sider, Content } = Layout;
